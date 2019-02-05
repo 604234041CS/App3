@@ -1,0 +1,35 @@
+[
+{
+   "studentID":"604234041",
+   "firstname": "Nasree",
+   "lastname": "Bara",
+   "nickname": "nus",
+   "faculty":"Science And Tecnology",
+   "major":"ComputerScience",
+   "birthday": "1998-05-12T00:00:00",
+   "picture":"https://raw.githubusercontent.com/604234041CS/App3/master/nr.jpg",
+   "classroom":"ComsciB"
+},
+{
+"studentID": "604234057",
+   "firstname": "Suarin",
+   "lastname": "Binsama",
+   "nickname": "Rain",
+   "faculty":"Science And Tecnology",
+   "major":"ComputerScience",
+   "birthday": "1998-05-15T00:00:00",
+   "picture":"https://raw.githubusercontent.com/604234041CS/App3/master/rn.jpg",
+   "classroom":"ComsciB"
+},
+{
+   "studentID": "604234060",
+   "firstname": "Atyawat",
+   "lastname": "Binreem",
+   "nickname": "Arm",
+   "faculty":"Science And Tecnology",
+   "major":"ComputerScience",
+   "birthday": "1999-13-07T00:00:00",
+   "picture":"https://raw.githubusercontent.com/604234041CS/App3/master/arm.jpg",
+   "classroom":"ComsciB"
+}
+]
