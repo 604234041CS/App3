@@ -1,0 +1,38 @@
+<!--
+  Generated template for the FrminidetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>frminidetail</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-grid style="height: 100%" >
+        <ion-row justify-content-center align-items-center style="height: 100%" *ngIf="frmini"> 
+  
+              <img  height="200px" src='{{ frmini.picture }}'/>
+      
+              <ion-list >
+                <ion-item><strong>StudentId:</strong>{{ frmini.studentID }}</ion-item>
+                <ion-item><strong>Firstname:</strong>{{ frmini.firstname }}</ion-item>
+                <ion-item><strong>Lastname:</strong>{{ frmini.lastname }}</ion-item>
+                <ion-item><strong>Nickname:</strong>{{ frmini.nickname }}</ion-item>
+                <ion-item><strong>Faculty:</strong>{{ frmini.faculty }}</ion-item>
+                <ion-item><strong>Major:</strong>{{ frmini.major }}</ion-item>
+                <ion-item><strong>Birthday:</strong>{{frmini.birthday|date:'dd/MM/yyyy' }}</ion-item>
+              </ion-list>
+              
+              <button ion-button full color="dark" (click)="gotoBack()" >
+                    Back
+            </button>  
+</ion-row>
+</ion-grid>
+
+</ion-content>

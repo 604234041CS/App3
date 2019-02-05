@@ -1,0 +1,34 @@
+<!--
+  Generated template for the FrminilistPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>frminilist</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list *ngIf="Frminis">
+        <ion-item *ngFor="let Frmini of Frminis" text-wrap>
+          <ion-thumbnail item-start>
+            <img src='{{ Frmini.picture }}'>
+          </ion-thumbnail>
+          <h2><strong>{{Frmini.nickname}}</strong></h2>
+          <p>{{Frmini.firstname}}</p>
+          <p>{{Frmini.lastname}}</p>
+          <button ion-button clear item-end (click)="showDetail(Frmini.studentID)">
+            <ion-icon name="share-alt"></ion-icon>       
+          </button>
+        </ion-item>         
+      </ion-list>
+      <button ion-button full color="dark" (click)="gotoBack()" >
+          Back
+        </button>
+
+</ion-content>
